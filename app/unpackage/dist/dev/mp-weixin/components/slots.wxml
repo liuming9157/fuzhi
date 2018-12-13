@@ -4,15 +4,15 @@
 <import src="/components/uni-status-bar.vue.wxml" />
 <import src="/components/uni-icon.vue.wxml" />
 <import src="/components/slots" />
-<template name="data-v-a104bfd2-default-0Gq-2">
+<template name="data-v-a104bfd2-default-Zd7-2">
   <view class="_view data-v-a104bfd2 input-view">
-    <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'5VB-1'],$root}}" is="37829386"></template>
-    <input confirm-type="search" bindconfirm="handleProxy" class="_input data-v-a104bfd2 input" type="text" placeholder="输入搜索关键词" data-eventid="{{'M67-0'}}" data-comkey="{{$k}}" />
+    <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'Z2C-1'],$root}}" is="37829386"></template>
+    <input confirm-type="search" bindconfirm="handleProxy" class="_input data-v-a104bfd2 input" type="text" placeholder="输入搜索关键词" data-eventid="{{'Qf3-0'}}" data-comkey="{{$k}}" />
   </view>
 </template>
-<template name="data-v-a104bfd2-left-0Gq-2">
+<template name="data-v-a104bfd2-left-Zd7-2">
   <view class="_view data-v-a104bfd2 city">
     <text class="_text data-v-a104bfd2">{{city}}</text>
-    <template type="arrowdown" color="#333333" size="22" data="{{...$root['0'], ...$root[$kk+'stG-0'],$root}}" is="37829386"></template>
+    <template type="arrowdown" color="#333333" size="22" data="{{...$root['0'], ...$root[$kk+'pLp-0'],$root}}" is="37829386"></template>
   </view>
 </template>
