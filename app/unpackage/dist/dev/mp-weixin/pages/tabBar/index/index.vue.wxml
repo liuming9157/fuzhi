@@ -1,0 +1,27 @@
+<import src="/components/uni-nav-bar.vue.wxml" />
+<import src="/components/uni-icon.vue.wxml" />
+<import src="/components/uni-segmented-control.vue.wxml" />
+<template name="6ee45d70">
+  <view class="_view data-v-a104bfd2">
+    <template color="#333333" background-color="#FFFFFF" fixed="false" right-icon="scan" bindclick-left="handleProxy" bindclick-right="handleProxy" data-eventid="{{'WR2-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'0Gq-2'],$root, $slotdefault:'data-v-a104bfd2-default-0Gq-2',$slotleft:'data-v-a104bfd2-left-0Gq-2'}}"
+      is="0c917d6c"></template>
+    <swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{3000}}" duration="{{1000}}" class="_swiper data-v-a104bfd2">
+      <swiper-item wx:for="{{slide1}}" wx:for-index="index" wx:for-item="item" class="_swiper-item data-v-a104bfd2">
+        <image class="_image data-v-a104bfd2 swiper-item" src="{{item.img}}">{{item}}</image>
+      </swiper-item>
+    </swiper>
+    <view class="_view data-v-a104bfd2 grids">
+      <navigator class="_navigator data-v-a104bfd2 grid" wx:for="{{nav1}}" wx:for-index="index" wx:for-item="item">
+        <image src="{{item.img}}" mode class="_image data-v-a104bfd2 grid_img"></image>
+        <view class="_view data-v-a104bfd2 grid_name"> {{item.name}} </view>
+      </navigator>
+    </view>
+    <template bindclickItem="handleProxy" style-type="button" active-color="#ff9900" data-eventid="{{'xfD-2'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Cae-4'],$root}}" is="49234065"></template>
+    <view class="_view data-v-a104bfd2 content">
+      <view hidden="{{!(current === 0)}}" class="_view data-v-a104bfd2"> 选项卡1的内容 </view>
+      <view hidden="{{!(current === 1)}}" class="_view data-v-a104bfd2"> 选项卡2的内容 </view>
+      <view hidden="{{!(current === 2)}}" class="_view data-v-a104bfd2"> 选项卡3的内容 </view>
+      <view hidden="{{!(current === 3)}}" class="_view data-v-a104bfd2"> 选项卡4的内容 </view>
+    </view>
+  </view>
+</template>

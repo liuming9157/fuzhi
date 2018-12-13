@@ -1,0 +1,17 @@
+<import src="/components/uni-nav-bar.vue.wxml" />
+<import src="/components/uni-icon.vue.wxml" />
+<import src="/components/uni-status-bar.vue.wxml" />
+<import src="/components/uni-icon.vue.wxml" />
+<import src="/components/slots" />
+<template name="data-v-5320d9cc-default-OJf-2">
+  <view class="_view data-v-5320d9cc input-view">
+    <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'I2h-1'],$root}}" is="32e10cf1"></template>
+    <input confirm-type="search" bindconfirm="handleProxy" class="_input data-v-5320d9cc input" type="text" placeholder="输入搜索关键词" data-eventid="{{'5fX-0'}}" data-comkey="{{$k}}" />
+  </view>
+</template>
+<template name="data-v-5320d9cc-left-OJf-2">
+  <view class="_view data-v-5320d9cc city">
+    <text class="_text data-v-5320d9cc">{{city}}</text>
+    <template type="arrowdown" color="#333333" size="22" data="{{...$root['0'], ...$root[$kk+'Ycm-0'],$root}}" is="32e10cf1"></template>
+  </view>
+</template>
